@@ -19,38 +19,38 @@ func /(lhs: CGFloat, rhs: Int) -> CGFloat {
 /*
 *  Toast Config
 */
-let HRToastDefaultDuration  =   2.0
-let HRToastFadeDuration     =   0.2
-let HRToastHorizontalMargin : CGFloat  =   10.0
-let HRToastVerticalMargin   : CGFloat  =   10.0
+public let HRToastDefaultDuration  =   2.0
+public let HRToastFadeDuration     =   0.2
+public let HRToastHorizontalMargin : CGFloat  =   10.0
+public let HRToastVerticalMargin   : CGFloat  =   10.0
 
-let HRToastPositionDefault  =   "bottom"
-let HRToastPositionTop      =   "top"
-let HRToastPositionCenter   =   "center"
+public let HRToastPositionDefault  =   "bottom"
+public let HRToastPositionTop      =   "top"
+public let HRToastPositionCenter   =   "center"
 
 // activity
-let HRToastActivityWidth  :  CGFloat  = 100.0
-let HRToastActivityHeight :  CGFloat  = 100.0
-let HRToastActivityPositionDefault    = "center"
+public let HRToastActivityWidth  :  CGFloat  = 100.0
+public let HRToastActivityHeight :  CGFloat  = 100.0
+public let HRToastActivityPositionDefault    = "center"
 
 // image size
-let HRToastImageViewWidth :  CGFloat  = 80.0
-let HRToastImageViewHeight:  CGFloat  = 80.0
+public let HRToastImageViewWidth :  CGFloat  = 80.0
+public let HRToastImageViewHeight:  CGFloat  = 80.0
 
 // label setting
-let HRToastMaxWidth       :  CGFloat  = 0.8;      // 80% of parent view width
-let HRToastMaxHeight      :  CGFloat  = 0.8;
-let HRToastFontSize       :  CGFloat  = 16.0
-let HRToastMaxTitleLines              = 0
-let HRToastMaxMessageLines            = 0
+public let HRToastMaxWidth       :  CGFloat  = 0.8;      // 80% of parent view width
+public let HRToastMaxHeight      :  CGFloat  = 0.8;
+public let HRToastFontSize       :  CGFloat  = 16.0
+public let HRToastMaxTitleLines              = 0
+public let HRToastMaxMessageLines            = 0
 
 // shadow appearance
-let HRToastShadowOpacity  : CGFloat   = 0.8
-let HRToastShadowRadius   : CGFloat   = 6.0
-let HRToastShadowOffset   : CGSize    = CGSize(width: CGFloat(4.0), height: CGFloat(4.0))
+public let HRToastShadowOpacity  : CGFloat   = 0.8
+public let HRToastShadowRadius   : CGFloat   = 6.0
+public let HRToastShadowOffset   : CGSize    = CGSize(width: CGFloat(4.0), height: CGFloat(4.0))
 
-let HRToastOpacity        : CGFloat   = 0.9
-let HRToastCornerRadius   : CGFloat   = 10.0
+public let HRToastOpacity        : CGFloat   = 0.9
+public let HRToastCornerRadius   : CGFloat   = 10.0
 
 var HRToastActivityView: UnsafePointer<UIView>?    =   nil
 var HRToastTimer: UnsafePointer<Timer>?          =   nil
@@ -63,8 +63,8 @@ var HRToastFontColor: UnsafePointer<UIColor>?      =   nil
 /*
 *  Custom Config
 */
-let HRToastHidesOnTap       =   true
-let HRToastDisplayShadow    =   true
+public let HRToastHidesOnTap       =   true
+public let HRToastDisplayShadow    =   true
 
 //HRToast (UIView + Toast using Swift)
 
